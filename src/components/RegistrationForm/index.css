@@ -1,0 +1,83 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.registration-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #ea580c;
+  font-size: 45px;
+  text-align: center;
+}
+
+.form-div-container {
+  box-shadow: 0px 4px 16px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.name-label {
+  color: #475569;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.name-input {
+  outline: none;
+  border: 2px solid #9aa5b1;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.submit-button {
+  background-color: #ea580c;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+}
+
+.first-error-style {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
+
+.success-page {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
